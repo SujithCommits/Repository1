@@ -1,0 +1,40 @@
+Task Blueprint:
+what we want in the end?
+inside a        Repo --> 4 files on mohan1, mohan2, sujit1 & sujit2
+inside the same Repo --> 2 branches --> Mohan & Sujit 
+                     --> inside Mohan branch, 2 files mohan3 & mohan4
+                     --> inside Sujit branch, 2 files sujit3 & sujit4
+
+for branching:
+as always, clone the Repo from URL
+we have a main branch always by default
+
+NOTE/REMEMBER: Whenever we try/create a new branch it copies the data from main branch.
+
+1. git branch --> lists all your branches
+2. git branch mohan --> creates a branch on that label name callen MOHAN
+3. git checkout mohan --> takes you into the branch with labelname mohan
+4. git branch sujit --> creates a branch on the labelname SUJIT
+
+so, all together we have 3 branches. Main, Mohan, Sujit
+now let us try switching into these branches and list the files.
+you will see all the data to be same
+
+
+pushing a branch:
+git push origin labelname
+ex: git push origin mohan or git push origin sujit
+check the Central repo, Enjoy!
+
+at the end, we must have:
+2 branches, 2 files init and also 2 files out of it
+
+
+
+commit name reference::
+L - Local Machine, C - Central Repo
+==> L2C - Local to Central
+==> C2L - Central to Local
+
+all good?
+Next task, Now try merging these branches.
